@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 980px){
+    #sec_1{
+            background-size: center !important;
+            height: 70vh !important;
+            }
+            #contenedor_img1-2_sec1{
+                display: none;
+            }
+            #consec_1{
+                top: 150px !important;
+                right: 125px !important;
+                color: rgb(101, 29, 40);
+                }
+            #consec_1 h2{
+                font-size: 5em!important;
+            }
+            #mapa{
+                width: 100% !important;
+            }
+            #logoimg{
+                width: 30%;
+            }
+    #sec_registro_img{
+        display: none !important;
+    }       
+    #sec_ingreso_img{
+        display: none !important;
+    } 
+        }
+
+ @media screen and (min-width: 600px){
+    #consec_1{
+        top: 200px !important;
+        right: 200px !important;
+        color: rgb(101, 29, 40);
+        }
+ }
+
+ .shadowtexto{
+     text-shadow: 40px -30px 5px rgb(240, 171, 51);
+ }
+
+header{
+    height: 90px;
+    background: white;
+    z-index: 10000;
+    box-shadow: 0px 0px 5px 0px black;
+    top: 0 !important;
+    }
+    #contenedorlistamenu a{
+        color: rgb(101, 29, 40);
+        font-size: xx-large;
+        }
+        #contenedorlistamenu a:hover{
+            color: rgb(240, 171, 51);
+            }
+      
+#sec_1{
+    height: 100vh;
+    position: relative;
+    top: 50px;
+    }  
+    #img1_sec1{
+            background-color: transparent;
+            background-image: url('../img/img1_sec1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            }    
+            #img2_sec1{
+                background: url('../img/prod3.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                }
+                #img3_sec1{
+                    background: url('../img/img3_sec1.jpg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    }
+                    #consec_1{
+                        width: 50%;
+                        position:absolute;
+                        top: 300px;
+                        right: 150px;
+                        color: rgb(101, 29, 40);
+                        }
+                        #consec_1 h2{
+                            font-size: 10em;
+                        }
+
+
+
+#sec_2{
+        background-color: transparent;
+        position: relative;
+        }
+        #sec_2 .card{
+            border: 1px solid #f0ab33;
+            }
+            #sec_2 h5{
+                color: rgb(101, 29, 40);
+                font-size: xx-large;
+                font-weight: bold;
+                }
+
+#sec_3{
+    background-color: rgba(231, 230, 230, 0.192);
+    overflow: hidden;
+    position: relative;
+    }
+    #sec_3 h2{
+            color: rgb(101, 29, 40);
+            font-size: xx-large;
+            font-weight: bold;
+            margin-top: 4em;
+                }
+ 
+#sec_4{
+    background-color: white;
+    position: relative;
+    }
+    #sec_4 h2{
+            color: rgb(101, 29, 40);
+            font-size: xx-large;
+            font-weight: bold;
+        }
+        #sec_4 input ,textarea{
+                        border: 1px solid rgb(240, 171, 51);
+                        }
+                        #sec_4 textarea{
+                                border: 1px solid rgb(240, 171, 51);
+                                }
+
+        #sec_4 input[type="submit"]{
+                                    background-color: rgb(240, 171, 51);
+                                     }
+                                    #sec_4 input[type="submit"]:hover{
+                                        background-color: white;
+                                        border: 0.5px solid rgb(240, 171, 51);
+                                    }
+
+#footer{
+        background-color: white;
+        }
+        #redes{
+            background-color:transparent;
+        }
+        #redes ul li{
+                list-style: none;
+                }
+                .derechos{
+                        color: white;
+                        background: black;
+                        }
+
+                                    /* REGISTRO PHP */
+#main_registro{
+    height: 100vh;
+    position: relative;
+}
+
+#sec_registro_img{
+        background-image: url('../img/sec_registro1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+            }
+
+#sec_registro{
+        background-image: url('../img/img1_sec1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+#div_contenedor_registro{
+   background: white;
+   opacity: 90%;
+}
+#form-registro{
+    color: rgb(101, 29, 40);
+    font-size: xx-large;
+    font-weight: bold;
+            }
+            #form-registro input{
+                border: 1px solid rgb(240, 171, 51);
+                }
+                #form-registro input[type="submit"]{
+                  background-color: rgb(240, 171, 51);
+                    }
+                    #form-registro input[type="submit"]:hover{
+                        background-color: white;
+                        border: 0.5px solid rgb(240, 171, 51);
+                    }
+
+
+                    /* INGRESAR PHP */
+#main_ingresar{
+    height: 100vh;
+    position: relative;
+        }
+        #sec_ingresar{
+             background-image: url('../img/img1_sec1.jpg');
+             background-repeat: no-repeat;
+             background-size: cover;
+            }
+            #sec_ingreso_img{
+                 background-image: url('../img/sec_registro1.jpg');
+                 background-repeat: no-repeat;
+                 background-size: cover;
+            }
+            #contenedor_ingreso{
+                background: white !important;
+                opacity: 90%;
+             }  
+             
+                    /* PEDIDOS PHP */
+#main_pedidos{
+    height: 100vh;
+    position: relative;
+        }
+        #sec_pedidos{
+             background-image: url('../img/img1_sec1.jpg');
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 100vh;
+            position: relative;
+                 }
+                #contenedor_pedidos{
+                    background: white !important;
+                    opacity: 90%;
+                }
